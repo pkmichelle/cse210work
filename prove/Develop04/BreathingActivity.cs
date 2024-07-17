@@ -32,17 +32,6 @@ public class BreathingActivity : Activity
             Console.WriteLine("Breathing out:");
             Countdown("Now breathe out...", 6, 1);
         }
-
-        // for (int i = 0; i < _interval; i++)
-        // {
-        //     Console.Write("Breathe in... ");
-        //     Countup();
-        //     Console.WriteLine();
-
-        //     Console.Write("Breathe out... ");
-        //     Countdown();
-        //     Console.WriteLine();
-        // }
     }
 
     public void Countdown(string message, int start, int end)
